@@ -1,0 +1,101 @@
+.intro h1{
+    font-size: clamp(2.9rem, 10vw, 11rem);
+}
+
+.intro h1:after{
+    content:'ZAŠTITA VOZILA';
+    transform: translate(15%, -50%);
+    font-size: clamp(1.5rem, 5vw, 5.5rem);
+}
+
+.intro-pic{
+    position: relative;
+    background-image:url('../pictures/auto_voda.png');
+    background-size:cover;
+    background-position: center;
+    transition:background-image 6000ms, opacity 2000ms;
+}
+
+.towel{
+    position: absolute;
+    bottom:50px;
+    left:50px;
+    height:auto;
+    animation: Towel 4s forwards;
+}
+
+@keyframes Towel{
+    0%{
+        transform:translateX(200%);
+        opacity:0;
+    }
+    20%{
+        transform:translateX(0%);
+        opacity:1;
+    }
+    40%{
+        transform:translateX(200%);
+    }
+    60%{
+        transform:translateX(0%);
+    }
+    80%{
+        transform:translateX(200%);
+        opacity:1;
+    }
+    100%{
+        transform:translateX(0%);
+        opacity:0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .intro-pic{
+        width:320px;
+        height:112.94px;
+    }
+
+    .towel{
+        width:70px;
+        bottom:30px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .intro-pic{
+        width:400px;
+        height:141.17px;
+    }
+
+    .towel{
+        width:80px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .intro-pic{
+        width:500px;
+        height:176px;
+    }
+
+    .towel{
+        width:100px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .towel{
+        width:125px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .intro-pic{
+        width:600px;
+        height:211.75px;
+    }
+
+    .towel{
+        width:150px;
+    }
+}

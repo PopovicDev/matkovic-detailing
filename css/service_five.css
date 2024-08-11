@@ -1,0 +1,23 @@
+.intro h1{
+    font-size: clamp(2.6rem, 10vw, 12rem);
+}
+
+.intro h1:after{
+    content:'ENTERIJERA';
+    transform: translate(30%, -50%);
+    font-size: clamp(1.3rem, 5vw, 6rem);
+}
+
+.intro-pic{
+    position: relative;
+    background-image:url('../pictures/seatz1.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    transition:background-image 2000ms 1500ms, opacity 2000ms;
+    overflow:hidden;
+    aspect-ratio: 10/7;
+    width:80%;
+    height:auto;
+    object-fit:cover;
+}

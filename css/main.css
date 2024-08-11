@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --font:'Archivo Black', sans-serif;
+    --font1:'Montserrat', sans-serif;
+}
+
+::selection{
+    background-color:rgba(15,15,15,1);
+    color:gold;
+}
+
+*, *:before, *:after{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    height:100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    height:100dvh;
+    width:100%;
+}
+
+img{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.flex-h{
+    display:flex;
+    flex-direction: row;
+}
+
+.flex-h a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.flex-v{
+    display:flex;
+    flex-direction: column;
+}
+
+.hidden{
+	opacity:0;
+	transition-property:opacity;
+	transition-duration:2000ms;
+}
+
+.show{
+	opacity:1;
+}
+
+.hidden1{
+    opacity:0;
+    transform:translateX(100%);
+    transition:opacity 1s, transform 2s;
+}
+
+.show1{
+    opacity:1;
+    transform: translateX(0px);
+}

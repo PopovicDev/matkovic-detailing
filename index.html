@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matkovic Detailing</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header&footer.css">
+    <link rel="stylesheet" href="./css/main_page.css">
+</head>
+<body onload="ShowPictures();">
+    <header id="header">
+        <a href="./index.html"><img src="./pictures/logo1.png" alt="logo" width="1000" height="1000"></a>
+        <nav>
+            <input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+            <ul class="menu">
+                <li><a href="#">POCETNA</a></li>
+                <li class="sm-hover"><span class="usluge">USLUGE<i class="fa-solid fa-angle-down"></i></span>
+                    <ul class="submenu">
+                        <li><a href="./pages/poliranje_vozila.html">POLIRANJE VOZILA</a></li>
+                        <li><a href="./pages/keramicka_zastita.html">KERAMIČKA ZAŠTITA VOZILA</a></li>
+                        <li><a href="./pages/poliranje_farova.html">POLIRANJE FAROVA</a></li>
+                        <li><a href="./pages/dubinsko_pranje.html">DUBINSKO PRANJE</a></li>
+                        <li><a href="./pages/sredjivanje_enterijera.html">SREDJIVANJE ENTERIJERA</a></li>
+                        <li><a href="./pages/zatamnjivanje.html">ZATAMNJIVANJE FAROVA I ŠTOPKI</a></li>
+                    </ul>
+                </li>
+                <li><a href="./pages/galerija.html">GALERIJA</a></li>
+                <li><a href="./pages/kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="slider">
+            <div id="slide1">
+                <div class="slide1-one">
+                    <img src="./pictures/logo1.png" alt="" class="hidden">
+                    <div class="flex-v hidden">
+                        <p>
+                            <span class="p-inactive">POLIRANJE VOZILA</span><br>
+                            <span class="p-inactive">KERAMIČKA ZAŠTITA VOZILA</span><br>
+                            <span class="p-inactive">POLIRANJE FAROVA</span><br>
+                            <span class="p-inactive">DUBINSKO PRANJE</span><br>
+                            <span class="p-inactive">SREĐIVANJE ENTERIJERA</span><br>
+                            <span class="p-inactive">ZATAMNJIVANJE FAROVA I ŠTOPKI</span>
+                        </p>
+                        <button>ZAKAŽI TERMIN</button>
+                    </div>
+                </div>
+            </div>
+            <div id="slide2">
+                <div class="slide2-one">
+                    <div class="flex-v hidden">
+                        <p>SREDI FAROVE NA SVOM AUTOMOBILU I BUDI BEZBEDAN NA PUTU!</p>
+                        <button>ZAKAŽI TERMIN</button>
+                    </div>
+                    <img src="./pictures/logo1.png" alt="" class="hidden">
+                </div>
+            </div>
+            <div id="slide3">
+                <div class="slide3-one">
+                    <img src="./pictures/logo1.png" alt="" class="hidden">
+                    <div class="flex-v hidden">
+                        <p>UVERITE SE SAMI - ISPROBAJTE NAŠ NAJPRODAVANIJI PAKET!</p>
+                        <button>ZAKAŽI TERMIN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="business-review">
+            <div>
+                <h3>300.000+</h3>
+                <h5>Zadovoljnih klijenata</h5>
+            </div>
+            <div>
+                <h3 class="stars">★★★★★</h3>
+                <h5>Preko 3000 recenzija sa ocenom 5</h5>
+            </div>
+            <div>
+                <h3>15</h3>
+                <h5>Godina u industriji</h5>
+            </div>
+        </section>
+        <section class="services">
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/poliranje_vozila.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>POLIRANJE VOZILA</h4>
+                    <p>Naš tim pruža vrhunsko poliranje vozila, vraćajući sjaj i zaštitu vašem automobilu.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/keramicka_zastita.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>KERAMIČKA ZAŠTITA VOZILA</h4>
+                    <p>Keramička zaštita vozila pruža dugotrajnu zaštitu i visok sjaj vašem automobilu.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/poliranje_farova.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>POLIRANJE FAROVA</h4>
+                    <p>Poliranje farova poboljšava vidljivost i vraća originalan sjaj vašim svetlima.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/dubinsko.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>DUBINSKO PRANJE</h4>
+                    <p>Dubinsko pranje vozila uklanja sve nečistoće, osvežavajući unutrašnjost automobila.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/enterijer.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>SREDJIVANJE ENTERIJERA</h4>
+                    <p>Sređivanje enterijera vozila donosi čistoću, urednost i novu svežinu unutrašnjosti.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-pic"><img src="./pictures/zatamnjivanje.png" alt="" loading="lazy"></div>
+                <div class="service-info">
+                    <h4>ZATAMNJIVANJE FAROVA I ŠTOPKI</h4>
+                    <p>Zatamnjivanje farova i stopki daje vozilu moderan i sportski izgled.</p>
+                    <a href="#"><button>PRIKAZI PAKET</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="business-offer">
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h4>BLJEŠTAVA ČISTOĆA ZA VAŠ AUTOMOBIL</h4>
+                <p>Unapredite performanse i izgled vašeg automobila uz naše vrhunske usluge i proizvode - jer vaš auto zaslužuje najbolje.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h4>PROFESIONALNI I BRZI REZULTATI</h4>
+                <p>Prepustite svoj automobil našim stručnjacima i uživajte u besprekornom izgledu za rekordno kratko vreme.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h4>100% SATISFAKCIJA ZAGARANTOVANA</h4>
+                <p>Naš cilj je vaša potpuna satisfakcija - pružamo vrhunsku uslugu koja će premašiti vaša očekivanja svaki put.</p>
+            </div>
+        </section>
+        <section class="topseller">
+            <div class="topseller-pic"></div>
+            <div class="topseller-info">
+                <div>
+                    <h2>POLIRANJE FAROVA</h2>
+                    <p><i class="fa-solid fa-circle-check"></i>  <span>Vrhunska oprema</span>: Koristimo najmoderniju tehnologiju za poliranje farova.</p>
+                        <p><i class="fa-solid fa-circle-check"></i>  <span>Stručni tehničari</span>: Naš tim čine iskusni i obučeni profesionalci.</p>
+                        <p><i class="fa-solid fa-circle-check"></i>  <span>Dugotrajna zaštita</span>: Proizvodi štite farove od oštećenja i zamagljivanja.</p>
+                        <p><i class="fa-solid fa-circle-check"></i>  <span>Garancija zadovoljstva</span>: Povrat novca ili besplatno ponovno poliranje ako niste zadovoljni.</p>
+                </div>
+                <button>VIDI PAKET</button>
+            </div>
+        </section>
+        <section class="review-section">
+        <div id="reviews">
+            <div class="review">
+                <img src="./pictures/review1.png" alt="" loading="lazy">
+                <div class="review-info">
+                    <h2>"VEOMA IMPRESIONIRAN"</h2>
+                    <p>Nikada do sada nisam sredjivao svoj automobil, i nakon ove transformacije apsolutno nastavljam dolaziti u Matkovic Detailing!</p>
+                    <h3>Milan P.</h3>
+                </div>
+            </div>
+            <div class="review">
+                <img src="./pictures/review1.png" alt="" loading="lazy">
+                <div class="review-info">
+                    <h2>"VEOMA IMPRESIONIRAN"</h2>
+                    <p>Nikada do sada nisam sredjivao svoj automobil, i nakon ove transformacije apsolutno nastavljam dolaziti u Matkovic Detailing!</p>
+                    <h3>Milan P.</h3>
+                </div>
+            </div>
+            <div class="review">
+                <img src="./pictures/review1.png" alt="" loading="lazy">
+                <div class="review-info">
+                    <h2>"VEOMA IMPRESIONIRAN"</h2>
+                    <p>Nikada do sada nisam sredjivao svoj automobil, i nakon ove transformacije apsolutno nastavljam dolaziti u Matkovic Detailing!</p>
+                    <h3>Milan P.</h3>
+                </div>
+            </div>
+            <div class="review">
+                <img src="./pictures/review1.png" alt="" loading="lazy">
+                <div class="review-info">
+                    <h2>"VEOMA IMPRESIONIRAN"</h2>
+                    <p>Nikada do sada nisam sredjivao svoj automobil, i nakon ove transformacije apsolutno nastavljam dolaziti u Matkovic Detailing!</p>
+                    <h3>Milan P.</h3>
+                </div>
+            </div>
+            <div class="review">
+                <img src="./pictures/review1.png" alt="" loading="lazy">
+                <div class="review-info">
+                    <h2>"VEOMA IMPRESIONIRAN"</h2>
+                    <p>Nikada do sada nisam sredjivao svoj automobil, i nakon ove transformacije apsolutno nastavljam dolaziti u Matkovic Detailing!</p>
+                    <h3>Milan P.</h3>
+                </div>
+            </div>
+            <div class="flex-v buttons">
+                <button id="scroll-left" onclick="ScrollLeft(this);"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="scroll-right" onclick="ScrollRight(this);"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        </section>
+        <section class="faq">
+            <h1>FAQ</h1>
+            <h4>NAJCESCA PITANJA</h4>
+            <div class="questions">
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Šta je car detailing?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Car detailing je temeljno čišćenje, obnova i zaštita svih delova automobila, i unutrašnjih i spoljašnjih, kako bi izgledao kao nov.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Koja je razlika između pranja automobila i car detailinga?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Pranje automobila obuhvata osnovno spoljašnje čišćenje, dok detailing uključuje detaljno čišćenje, poliranje i zaštitu svih delova automobila.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Koliko često treba raditi car detailing?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Preporučuje se da se car detailing radi svakih 4-6 meseci, zavisno od uslova vožnje i skladištenja automobila.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Koliko traje proces car detailinga?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Detailing može trajati od nekoliko sati do celog dana, u zavisnosti od stanja automobila i obima usluga koje se rade.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Koje proizvode koristite za car detailing?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Koristimo visokokvalitetne proizvode za čišćenje, poliranje i zaštitu, koji su sigurni za sve površine automobila..</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Da li je detailing samo za luksuzne automobile?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Ne, detailing je koristan za sve vrste automobila, bez obzira na marku ili vrednost, jer pomaže u očuvanju i poboljšanju njihovog izgleda i vrednosti.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-q">
+                        <h3>Koliko košta car detailing?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="answer">
+                        <p>Cena detailinga varira zavisno od usluga koje se pružaju, veličine automobila i njegovog stanja, ali obično se kreće od nekoliko desetina do nekoliko stotina evra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" >
+            <h1>URADILI SMO 100.000+ AUTOMOBILA</h1>
+            <h4>U posledjih 5 godina, sredili smo 50.000 automobila sirom Srbije.</h4>
+            <div class="pictures">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+                <img src="./pictures/poliranje_farova.png" alt="" loading="lazy">
+            </div>
+            <button id="pic_button" onclick="ShowPictures();">VIDI JOŠ</button>
+        </section>
+    </main>
+    <footer id="footer">
+        <a href="./index.html"><img src="./pictures/logo1.png" alt="logo" width="1000" height="1000"></a>
+        <div class="footer-info">
+            <h3>USLUGE</h3>
+            <div>
+                <h4><a href="./pages/poliranje_vozila.html">POLIRANJE VOZILA</a></h4>
+                <h4><a href="./pages/keramicka_zastita.html">KERAMIČKA ZAŠTITA VOZILA</a></h4>
+                <h4><a href="./pages/poliranje_farova.html">POLIRANJE FAROVA</a></h4>
+                <h4><a href="./pages/dubinsko_pranje.html">DUBINSKO PRANJE</a></h4>
+                <h4><a href="./pages/sredjivanje_enterijera.html">SREDJIVANJE ENTERIJERA</a></h4>
+                <h4><a href="./pages/zatamnjivanje.html">ZATAMNJIVANJE FAROVA I ŠTOPKI</a></h4>
+            </div>
+        </div>
+        <div class="footer-info">
+            <h3>POMOĆ</h3>
+            <div>
+                <h4><a href="./pages/kontakt.html">KONTAKTIRAJ NAS</a></h4>
+            </div>
+        </div>
+        <div class="footer-info">
+            <h3>ZAPRATI NAS</h3>
+            <div class="flex-h">
+                <a href="#"><div class="footer-icon fb"><i class="fa-brands fa-facebook-f"></i></div></a>
+                <a href="#"><div class="footer-icon tw"><i class="fa-brands fa-twitter"></i></div></a>
+                <a href="https://www.instagram.com/matkovic_detailing/"><div class="footer-icon ig"><i class="fa-brands fa-instagram"></i></div></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/slider.js"></script>
+    <script src="https://kit.fontawesome.com/ea3edf7906.js" crossorigin="anonymous"></script>
+</body>
+</html>
