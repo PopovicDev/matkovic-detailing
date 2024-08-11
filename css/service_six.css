@@ -1,0 +1,40 @@
+.intro h1{
+    font-size: clamp(2.1rem, 10vw, 7rem);
+}
+
+.intro h1:after{
+    content:'FAROVA I ŠTOPKI';
+    transform: translate(25%, 90%);
+    font-size: clamp(1.1rem, 5vw, 3.5rem);
+}
+
+.intro-pic{
+    position: relative;
+    background-image:url('../pictures/zatamnjivanje3.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    transition:background-image 2000ms 500ms, opacity 2000ms;
+    overflow:hidden;
+    aspect-ratio: 7/3;
+    height:auto;
+    object-fit:cover;
+}
+
+@media only screen and (max-width:600px){
+    .intro-pic{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .intro-pic{
+        width:50%;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .intro-pic{
+        width:30%;
+    }
+}
