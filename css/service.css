@@ -16,7 +16,7 @@ body{
 }
 
 .intro-pic{
-    transform:translateY(35px);
+    transform:translateY(45px);
 }
 
 .intro h1{
@@ -33,7 +33,7 @@ body{
     position: absolute;
     top:50%;
     left:0;
-    transform: translate(30%, 50%);
+    transform: translate(30%, 70%);
     text-shadow:0px 0px 15px black;
 }
 

@@ -4,7 +4,7 @@
 
 .intro h1:after{
     content:'FAROVA I ŠTOPKI';
-    transform: translate(25%, 70%);
+    transform: translate(25%, 90%);
     font-size: clamp(1.1rem, 5vw, 3.5rem);
 }
 

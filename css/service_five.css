@@ -4,7 +4,7 @@
 
 .intro h1:after{
     content:'ENTERIJERA';
-    transform: translate(25%, 50%);
+    transform: translate(25%, 70%);
     font-size: clamp(1.3rem, 5vw, 6rem);
 }
 

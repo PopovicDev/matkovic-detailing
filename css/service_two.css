@@ -4,7 +4,7 @@
 
 .intro h1:after{
     content:'ZAŠTITA VOZILA';
-    transform: translate(15%, 50%);
+    transform: translate(15%, 70%);
     font-size: clamp(1.5rem, 5vw, 5.5rem);
 }
 

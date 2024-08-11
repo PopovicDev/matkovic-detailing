@@ -5,7 +5,7 @@
 .intro h1:after{
     content:'FAROVA';
     font-size: clamp(1.5rem, 5vw, 5.5rem);
-    transform: translate(33%, 50%);
+    transform: translate(33%, 70%);
 }
 
 .intro-pic{
