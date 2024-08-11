@@ -5,11 +5,13 @@
 .intro h1:after{
     content:'VOZILA';
     font-size: clamp(1.7rem, 5vw, 6rem);
+    transform: translate(35%, 50%);
 }
 
 .car{
     position: relative;
     animation:Moving 2s forwards;
+    padding-top:50px;
 }
 
 .car-body{
@@ -22,6 +24,7 @@
     height:211.75px;
     position: absolute;
     top:3px;
+    margin-top:50px;
 }
 
 .left-wheel{

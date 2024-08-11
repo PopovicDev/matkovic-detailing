@@ -5,6 +5,7 @@
 .intro h1:after{
     content:'FAROVA';
     font-size: clamp(1.5rem, 5vw, 5.5rem);
+    transform: translate(33%, 50%);
 }
 
 .intro-pic{
@@ -19,4 +20,28 @@
     height:auto;
     object-fit:cover;
     aspect-ratio:1928/1000;
+}
+
+@media only screen and (max-width:600px){
+    .intro-pic{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .intro-pic{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .intro-pic{
+        width:50%;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .intro-pic{
+        width:30%;
+    }
 }

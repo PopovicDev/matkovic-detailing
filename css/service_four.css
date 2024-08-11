@@ -20,9 +20,8 @@
 
 .lines{
     position: absolute;
-    left:-10px;
+    left:-5px;
     bottom:-170px;
-    width:600px;
     z-index:2;
     transition: transform 4s;
     animation:Cleaning 2.5s forwards 1500ms;
