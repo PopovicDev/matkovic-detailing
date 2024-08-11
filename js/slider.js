@@ -72,7 +72,7 @@ let Slide2 = () => {
     slide2.querySelectorAll('.hidden').forEach(el => {
         el.classList.add('show');
     });
-    slide2.style.backgroundImage = `url('../pictures/slider2_hl.jpg')`;
+    slide2.style.backgroundImage = `url('../pictures/slider2_hl.png')`;
 }
 
 //SLIDE 3
