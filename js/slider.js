@@ -72,7 +72,7 @@ let Slide2 = () => {
     slide2.querySelectorAll('.hidden').forEach(el => {
         el.classList.add('show');
     });
-    slide2.style.backgroundImage = `url('../pictures/slider2_hl.jpg')`;
+    slide2.style.backgroundImage = `url('./pictures/slider2_hl.jpg')`;
 }
 
 //SLIDE 3
@@ -84,7 +84,7 @@ let Slide3 = () => {
     slide3.querySelectorAll('.hidden').forEach(el => {
         el.classList.add('show');
     });
-    slide2.style.backgroundImage = `url('../pictures/slider2.jpg')`;
+    slide2.style.backgroundImage = `url('./pictures/slider2.jpg')`;
     for(let i=0;i<6;i++){
         paragraph[i].classList.remove('p-active');
     }
